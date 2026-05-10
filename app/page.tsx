@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./Navbar";
 import Swiners from "./Swiners";
+import Maincategory from "./Maincategory";
  
 
 export default function Home() {
@@ -9,6 +10,8 @@ export default function Home() {
 
       <Navbar></Navbar>
       <Swiners></Swiners>
+
+      <Maincategory></Maincategory>
      
      
     </div>
