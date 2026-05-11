@@ -12,7 +12,7 @@ import deka from "next/font/local";
 import 'swiper/css';
 import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import 'swiper/css/scrollbar';
 import Image from 'next/image';
 
 const myFont =  deka({
@@ -48,7 +48,7 @@ const Swiners = () => {
         priority
       />
       <div className="absolute inset-0 bg-black/60"></div>
-      <div className='flex justify-center items-center min-h-screen text-[#D4AF37]'>
+      <div className='flex justify-center items-center h-full text-[#D4AF37]'>
         <p className='text-5xl font-bold absolute'>Wear Confidence. Own the Moment.</p>
       </div>
     </div>
@@ -64,7 +64,7 @@ const Swiners = () => {
       />
       <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className='flex justify-center items-center min-h-screen text-[#D4AF37]'>
+      <div className='flex justify-center items-center h-full text-[#D4AF37]'>
         <p className='text-5xl font-bold absolute'>Dress Bold. Live Bold.</p>
       </div>
     </div>
@@ -81,7 +81,7 @@ const Swiners = () => {
       />
        <div className="absolute inset-0 bg-black/60"></div>
 
-        <div className='flex justify-center items-center min-h-screen text-[#D4AF37]'>
+        <div className='flex justify-center items-center h-full text-[#D4AF37]'>
         <p className='text-5xl font-bold absolute'>Where Fashion Meets Confidence.</p>
       </div>
     </div>

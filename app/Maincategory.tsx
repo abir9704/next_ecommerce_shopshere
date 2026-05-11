@@ -1,9 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
+import { Bebas_Neue } from 'next/font/google';
+
+
+const bebasNeue = Bebas_Neue({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap', // Recommended for performance
+})
 
 const Maincategory = () => {
     return (
-     <div className="mt-20 bg-[#fbf2e9]">
+     <div className={` bg-[#fbf2e9] ${bebasNeue.className} pb-10`}>
 
         <div className='mt-10 text-green-600 text-5xl my-10 text-center pt-10'>
             <p>Explore Our best categories</p>
