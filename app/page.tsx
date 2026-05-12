@@ -2,7 +2,8 @@ import Image from "next/image";
 import Navbar from "./Navbar";
 import Swiners from "./Swiners";
 import Maincategory from "./Maincategory";
- 
+import TopPck from "./TopPck";
+
 
 export default function Home() {
   return (
@@ -12,6 +13,12 @@ export default function Home() {
       <Swiners></Swiners>
 
       <Maincategory></Maincategory>
+
+      <TopPck></TopPck>
+
+     
+
+    
      
      
     </div>
