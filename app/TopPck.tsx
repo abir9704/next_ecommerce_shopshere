@@ -1,6 +1,15 @@
 "use client";
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from 'react-icons/fa';
+import { Bebas_Neue } from 'next/font/google';
+
+
+const bebasNeue = Bebas_Neue({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap', // Recommended for performance
+})
 
 const TopPck = () => {
 
@@ -9,6 +18,17 @@ const TopPck = () => {
         if(holder<4){
 
              setfashions((current)=>current+1);
+
+        }
+       
+    }
+
+
+      const changingmatch=()=>{
+
+        if(holder>0){
+
+             setfashions((current)=>current-1);
 
         }
        
@@ -59,11 +79,17 @@ const topPicks = [
 
     },[holder])
     return (
-        <div className='flex justify-center pt-10 pb-10'>
+        <div className={`${bebasNeue.className} pt-20`}>
 
-            <div>
+          <p className='text-4xl text-green-500 font-bold text-center'>Top Picks For you</p>
 
-                   <button onClick={changinggame} className='text-red-500 bg-amber-400 px-4 py-3'>change</button>
+          <div className='flex justify-center pt-14  pb-22'>
+
+                  <div className='flex gap-8 items-center'>
+
+                   {/* <button onClick={changinggame} className='text-red-500 bg-amber-400 px-4 py-3'>change</button> */}
+
+                   <FaRegArrowAltCircleLeft onClick={changingmatch} size={35} className='text-green-500'  />
 
          <Image
   src={topPicks[holder].image}
@@ -74,7 +100,23 @@ const topPicks = [
 />
 
 
+  <div className=' text-3xl font-bold text-center text-green-500'>
+
+              <p>{topPicks[holder].title}</p>
+                <p>{topPicks[holder].price}</p>
+            
             </div>
+
+<FaRegArrowAltCircleRight  onClick={changinggame}  size={35} className='text-green-500' />
+
+
+            </div>
+
+          
+
+          </div>
+
+          
 
          
     
