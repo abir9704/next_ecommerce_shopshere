@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Sale",
+    "subtitle": "Up to 50% OFF on All Summer Collections",
+    "buttonText": "Shop Now",
+    "image": "https://i.ibb.co/wZcFfLBG/prb222-2.jpg",
+    "link": "/shop?category=summer"
+  },
+  {
+    "id": 2,
+    "title": "New Streetwear Drop",
+    "subtitle": "Fresh Hoodies & Oversized Fits Just Landed",
+    "buttonText": "Explore Now",
+    "image": "https://i.ibb.co/fVfMMLwg/prb222-1.jpg",
+    "link": "/shop?category=streetwear"
+  },
+  {
+    "id": 3,
+    "title": "Premium Collection",
+    "subtitle": "Elegant Styles for a Bold Statement",
+    "buttonText": "Discover More",
+    "image": "https://i.ibb.co/HRDYMhK/prb222.jpg",
+    "link": "/shop?category=premium"
+  }
+]

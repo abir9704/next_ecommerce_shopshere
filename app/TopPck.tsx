@@ -79,9 +79,9 @@ const topPicks = [
 
     },[holder])
     return (
-        <div className={`${bebasNeue.className} pt-20`}>
+        <div className={`${bebasNeue.className} pt-20 bg-[#fbf2e9] text-[#2B2B2B]`}>
 
-          <p className='text-4xl text-green-500 font-bold text-center'>Top Picks For you</p>
+          <p className='text-4xl  font-bold text-center'>Top Picks For you</p>
 
           <div className='flex justify-center pt-14  pb-22'>
 
@@ -89,7 +89,7 @@ const topPicks = [
 
                    {/* <button onClick={changinggame} className='text-red-500 bg-amber-400 px-4 py-3'>change</button> */}
 
-                   <FaRegArrowAltCircleLeft onClick={changingmatch} size={35} className='text-green-500'  />
+                   <FaRegArrowAltCircleLeft onClick={changingmatch} size={35} className=''  />
 
          <Image
   src={topPicks[holder].image}
@@ -100,14 +100,14 @@ const topPicks = [
 />
 
 
-  <div className=' text-3xl font-bold text-center text-green-500'>
+  <div className=' text-3xl font-bold text-center '>
 
               <p>{topPicks[holder].title}</p>
                 <p>{topPicks[holder].price}</p>
             
             </div>
 
-<FaRegArrowAltCircleRight  onClick={changinggame}  size={35} className='text-green-500' />
+<FaRegArrowAltCircleRight  onClick={changinggame}  size={35} className='' />
 
 
             </div>

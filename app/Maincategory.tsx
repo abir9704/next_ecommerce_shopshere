@@ -11,9 +11,9 @@ const bebasNeue = Bebas_Neue({
 
 const Maincategory = () => {
     return (
-     <div className={` bg-[#fbf2e9] ${bebasNeue.className} pb-10`}>
+     <div className={` bg-[#fbf2e9] ${bebasNeue.className} pb-10 text-[#2B2B2B]`}>
 
-        <div className='mt-10 text-green-600 text-5xl my-10 text-center pt-10'>
+        <div className='mt-10  text-5xl my-10 text-center pt-10'>
             <p>Explore Our best categories</p>
         </div>
   <div className="grid grid-cols-3 grid-rows-2 gap-4 max-w-10/12 mx-auto">
