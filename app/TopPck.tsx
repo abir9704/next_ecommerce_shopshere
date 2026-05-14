@@ -79,7 +79,7 @@ const topPicks = [
 
     },[holder])
     return (
-        <div className={`${bebasNeue.className} pt-20 bg-[#fbf2e9] text-[#2B2B2B]`}>
+        <div className={`${bebasNeue.className} pt-20 text-[#2B2B2B] bg-[#fbf2e9] `}>
 
           <p className='text-4xl  font-bold text-center'>Top Picks For you</p>
 

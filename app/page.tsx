@@ -4,6 +4,8 @@ import Swiners from "./Swiners";
 import Maincategory from "./Maincategory";
 import TopPck from "./TopPck";
 import Promotional_Banner from "./Promotional_Banner";
+import Footer from "./Footer";
+import Foot from "./Foot";
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <TopPck></TopPck>
 
       <Promotional_Banner></Promotional_Banner>
+
+    <Foot></Foot>
 
      
 
