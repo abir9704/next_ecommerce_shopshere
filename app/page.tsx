@@ -6,6 +6,7 @@ import TopPck from "./TopPck";
 import Promotional_Banner from "./Promotional_Banner";
 import Footer from "./Footer";
 import Foot from "./Foot";
+import DiscoverStyle from "./DiscoverStyle";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <TopPck></TopPck>
 
       <Promotional_Banner></Promotional_Banner>
+      <DiscoverStyle></DiscoverStyle>
 
     <Foot></Foot>
 
